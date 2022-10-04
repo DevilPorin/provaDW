@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Media Query</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="geral">
+        <header>
+            <nav>
+                <a class="logo" href="http://www.utfpr.edu.br/campus/campomourao">UTFPR-CM</a>
+                <ul class="nav-list">
+                    <li><a href="./apresentacao.html">Apresentação</a></li>
+                    <li><a href="./personagem1.html">Personagem 1</a></li>
+                    <li><a href="./personagem2.html">Personagem 2</a></li>
+                    <li><a href="./personagem3.html">Personagem 3</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="geral">
+                <br><br>
+
+                <div class="titulo">
+                    <h1>Media Query</h1>
+                </div>
+                <hr/>
+                <br><br>
+
+                <div class="container">
+                    <div class="text">
+                        <h1>O que é Media Query</h1>
+                        <p>Uma media query consiste em uma consulta (query) que testa por medias e features, ou seja, é uma consulta que testa o meio e as características desse meio para, condicionalmente, aplicar determinados estilos.</p>
+                        <br>
+                        <p>Em outras palavras, uma media query é um teste que envolve media types e media features</p>
+                    </div>
+                    <br>
+                </div>
+                <br><br><br>
+
+                <div class="container">
+                    <div class="text">
+                        <h1>Características</h1>
+                        <p>A maioria das media features podem ter prefixo “min-” ou “max-“ para expressar as restrições “maior ou igual” ou “menor ou igual”. Isto evita o uso dos símbolos “<” e “>” , que entrem em conflito com HTML e XML. Se você usar uma media feature sem especificar um valor, a expressão retorna verdadeiro, se o valor da feature for diferente de zero.</p>
+                        <br>
+                        <p>Exemplo:</p>
+                        <br>
+                        <p>@media all and (color) { ... }</p>
+                        <p>Está aplicando um estilo para todos os dispositivos.</p>
+                    </div>
+                    <br>
+                </div>
+                <br><br><br>
+
+                <div class="container">
+                    <div class="text">
+                        <h1>O que são Media Features</h1>
+                        <br>
+                        <p>Media features também servem para testar se uma condição é verdade, mas, ao invés de testarem meios, testam características. Em outras palavras, uma media feature testa uma feature única, específica, de um dado User Agent (UA) ou dispositivo.</p>
+                        <br>
+                        <p>Exemplos:</p>
+                        <br>
+                        <p>- width</p>
+                        <p>- height</p>
+                        <p>- pixel-density</p>
+                    </div>
+                    <br>
+                </div>
+                <br><br><br>
+
+                <div class="container">
+                    <div class="text">
+                        <h1>Operadores Lógico de Media Query</h1>
+                        <br>
+                        <p>Basicamente, é possível trabalhar com 4 tipos de operadores lógicos: and, or, not e only.</p>
+                        <br>
+                        <p>O operador lógico "and" é usado para combinar múltiplas media features e media features com media types.</p>
+                        <br>
+                        <p>Não existe uma palavra-chave "or" para compor media queries, mas, na prática, seu efeito é conseguido usando "," (vírgula).
+                        <br>
+                        Seu efeito pode ser interpretado como: se qualquer consulta (query) for verdadeira, os estilos serão aplicadas. Perceba que é bem diferente de and, que entra ação se todas as consultas forem verdadeiras.</p>
+                        <br>
+                        <p>O operador lógico "not", tal como em linguagens de programação, nega o que está sendo declarado.</p>
+                        <br>
+                        <p>O operador "only" previne que navegadores antigos, que não suportam media queries com media features, apliquem os estilos do match.</p>
+                    </div>
+                    <br>
+                </div>
+                <br><br><br>
+
+                <div class="container">
+                    <div class="text">
+                        <h1>Por que utilizar Media Query?</h1>
+                        <br>
+                        <p>É fundamental que, ao criar um site, o desenvolvedor ou desenvolvedora se preocupe com a experiência da pessoa usuária. Para isso, é necessário ter em mente que o público que acessará aquele site pode ser muito diverso, podendo ser acessado por vários dispositivos diferentes. Assim, o site deve se adaptar para atender a essas diferentes requisições.</p>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+        </main>
+        <br><br>
+
+            <footer>
+                <div class="morango">
+
+                    <div class="box footer">
+                        <p><a href="http://www.utfpr.edu.br/">Acesse o site ofical</a></p>
+                    </div>
+
+                    <div class="box footer">
+                        <p><a href="https://www.instagram.com/utfprcm/?hl=pt">Nos siga no Instagram!</a></p>
+                    </div>
+
+                    <div class="box footer">
+                        <p><a href="https://www.instagram.com/carlos.v.fr/">Perfil do Aluno</a></p>
+
+                    </div>
+
+                </div>
+            </footer>
+    </div>
+    
+</body>
+</html>

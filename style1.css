@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;500;800;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #fff;
+    --cor2: #23232e;
+    --cor3: #373749;
+    --fonte: 'Source Serif Pro', serif;
+}
+
+a{
+    color: var(--cor1);
+    text-decoration: none;
+    transition: 0.3s;
+
+    font-family: var(--fonte);
+    font-weight: 200;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    font-family: var(--fonte);
+    font-weight: 300;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--cor2);
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main{
+    background: url(img/verde.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.geral{
+    display: flex;
+    background: url(img/verde.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+#aux{
+    color: var(--cor1);
+    width: 900px;
+}
+
+.titulo{
+    color: var(--cor1);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.perfis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+}
+
+.perfil > img{
+    max-width: 550px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+
+    border-width: 5px;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-image:   linear-gradient(to right, #105018 25%, #094d1d 25%, #05be1e 50%,rgb(44, 172, 12) 50%, rgb(2, 190, 49) 75%, #1b4d07 75%) 5;
+}
+
+
+
+.text{
+    color: var(--cor1);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    
+
+    border-width: 5px;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-image:   linear-gradient(to right, #105018 25%, #094d1d 25%, #05be1e 50%,rgb(44, 172, 12) 50%, rgb(2, 190, 49) 75%, #1b4d07 75%) 5;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: var(--fonte);
+    font-weight: 200;
+}
+
+h1{
+    font-family: var(--fonte);
+    font-weight: 800;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+
+}
+
+.footer{
+    padding: 30px;
+    background-color: var(--cor2);
+
+}
+
+.footer:hover{
+    background-color: var(--cor3);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.morango{
+    width: 100%;
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: space-around;
+}
+
